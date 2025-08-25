@@ -38,8 +38,8 @@ Each module runs in its own process with channels connecting outputs (DSL2).
 
 ```bash
 # clone and enter
-git clone https://github.com/<your-username>/nextflow-pipeline.git
-cd nextflow-pipeline
+git clone https://github.com/aniqahshah//microalgae-full-nextflow-pipeline.git
+cd microalgae-full-nextflow-pipeline
 
 # run with Docker (recommended)
 nextflow run main.nf   --input data/sample.fastq.gz   --clade Chlorophyta   --threads 16   --outdir results/sample1   -with-docker
